@@ -1,0 +1,158 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+    background: #000000 url(../img/dark_dotted.png);
+    color: aliceblue;
+}
+
+/* ------HEADER------- */
+
+#logofenix {
+    border-radius: 50%;
+}
+
+hr {
+    background: #144d7c;
+}
+
+#imagenpuente {
+    height: 500px;
+    width: 100%;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.65);
+    border-radius: 0 0 10px 10px;
+}
+
+main article {
+   background: #343a40;
+   border: 2.2px groove #144d7c;
+   border-radius: 5px;
+   box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.65); 
+}
+
+
+h3:hover {
+    color: #144d7c;
+}
+
+main h4 {
+    text-align: center;
+}
+
+
+main h4:hover {
+    color: #144d7c;
+}
+
+/* ---------CONTACTO-------- */
+
+#contacto {
+    margin: 5px;
+}
+
+.list-group {
+    text-align: center;
+    margin: 20px;
+}
+
+#fotoperfil {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #144d7c;
+    cursor: pointer;
+    transition: 1s ease-in-out;
+    transform-style: preserve-3d;
+}
+#fotoperfil:hover {
+    transform: rotateY(0.5turn);
+}
+
+.redes-sociales .contenedor a{
+    font-size: 25px;
+    margin: 3px;
+    color: #333333;
+}
+
+.redes-sociales .contenedor .linkedin:hover {
+    color:#0077b5;
+}
+
+.redes-sociales .contenedor .github:hover {
+    color:#0077b5;
+}
+
+.redes-sociales .contenedor .instagram:hover {
+    color:#0077b5;
+}
+
+/* -----SKILLS------- */
+
+#skills {
+    margin: 5px;
+}
+
+#skills .card {
+    border: none;
+}
+
+/* -----PROYECTOS------ */
+
+#proyectos {
+    background: none;
+    border: none;
+    box-shadow: none;
+    max-height: 400px;
+    margin: none;
+}
+
+#img-proyect {
+    -webkit-transition: -webkit-transform 0.16s ease-in-out 0.08s;
+    -moz-transition: -moz-transform 0.16s esae-in-out 0.08s;
+    transition: transform 0.16s esae-in-out 0.08s;
+}
+
+#img-proyect:hover {
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+
+/* -----FOOTER------ */
+
+#footer {
+    background: #343a40;
+    text-align: center;
+    height: 30px;
+    width: 100%;
+    border-radius: 3px;
+}
+
+
+
+/*---------MEDIAQUERIES----*/
+
+@media screen and (max-width:1000px) {
+    #imagenpuente {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width:800px) {
+    #imagenpuente {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #imagenpuente {
+        height: 200px;
+    }
+}
